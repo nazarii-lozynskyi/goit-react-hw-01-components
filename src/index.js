@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Profile from './profile/App';
 import Statistics from './statistics/App';
+import Friends from './friends/App';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,12 +19,12 @@ ReactDOM.render(
   document.getElementById('task-02')
 );
 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('task-03')
-// );
+ReactDOM.render(
+  <React.StrictMode>
+    <Friends />
+  </React.StrictMode>,
+  document.getElementById('task-03')
+);
 
 // ReactDOM.render(
 //   <React.StrictMode>
