@@ -1,0 +1,16 @@
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: fit-content;
+
+  text-align: center;
+}
+
+.stats {
+  list-style: none;
+}
+
+.label {
+  font-family: fantasy;
+}
