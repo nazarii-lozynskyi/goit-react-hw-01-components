@@ -20,9 +20,9 @@ export default function Friend({ friends }) {
   );
 }
 
-// Friends.propTypes = {
+// Friend.propTypes = {
 //   name: PropTypes.string.isRequired,
-//   //isOnline: PropTypes.string.isRequired,
+//   isOnline: PropTypes.oneOf(['true', 'false']).isRequired,
 
 //   avatar: PropTypes.string.isRequired,
 // };
