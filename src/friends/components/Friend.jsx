@@ -3,7 +3,12 @@ import PropTypes from 'prop-types';
 export default function Friend({ friends }) {
   return (
     <li className="item">
-      <span className="status">{friends.isOnline}</span>
+      <span
+        className="status"
+        style={{ backgroundColor: friends.isOnline ? 'green' : 'red' }}
+      >
+        {friends.isOnline}is
+      </span>
       <img
         className="avatar"
         src={friends.avatar}
