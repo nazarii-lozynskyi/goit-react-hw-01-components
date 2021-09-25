@@ -10,9 +10,9 @@ export default function TransactionHistory({ transactions }) {
   );
 }
 
-// Friends.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   //isOnline: PropTypes.string.isRequired,
+// TransactionHistory.propTypes = {
+//   type: PropTypes.string.isRequired,
+//   amount: PropTypes.string.isRequired,
 
-//   avatar: PropTypes.string.isRequired,
+//   currency: PropTypes.string.isRequired,
 // };
