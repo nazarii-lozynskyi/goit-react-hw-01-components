@@ -22,4 +22,12 @@ function TransactionHistoryTable({ transactions }) {
   );
 }
 
+TransactionHistoryTable.propTypes = {
+  transactions: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+    })
+  ),
+};
+
 export default TransactionHistoryTable;
