@@ -1,5 +1,4 @@
 import Profile from './components/Profile';
-import './App.css';
 
 import user from './user.json';
 
