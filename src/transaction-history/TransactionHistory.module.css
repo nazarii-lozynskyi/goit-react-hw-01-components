@@ -1,0 +1,45 @@
+.table {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+
+  font-size: 26px;
+  letter-spacing: 2px;
+
+  background-color: #6495ed;
+  color: cornsilk;
+}
+
+.type {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+tr:nth-child(2n) {
+  color: black;
+  background-color: #f5fffa;
+}
+
+tr:nth-child(2n-1) {
+  color: black;
+  background-color: #c0c0c0;
+}
+
+.amount {
+  text-align: center;
+}
+
+.currency {
+  text-align: center;
+}
