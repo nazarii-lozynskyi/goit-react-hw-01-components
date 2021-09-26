@@ -1,5 +1,3 @@
-import './App.css';
-
 import TransactionHistoryTable from './components/TransactionHistoryTable';
 
 import transactions from './transactions.json';
