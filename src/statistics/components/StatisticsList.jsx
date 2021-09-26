@@ -27,11 +27,7 @@ function StatisticsList({ stats }) {
   return (
     <ul className={styles.list}>
       {stats.map(statisticalData => (
-        <Statistics
-          key={statisticalData.id}
-          stats={statisticalData}
-          options={backgroundColor}
-        />
+        <Statistics key={statisticalData.id} stats={statisticalData} />
       ))}
     </ul>
   );
