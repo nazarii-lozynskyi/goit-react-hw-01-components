@@ -1,5 +1,3 @@
-import './App.css';
-
 import FriendList from './components/FliendList';
 
 import friends from './friends.json';
