@@ -1,6 +1,5 @@
 import StatisticsList from './components/StatisticsList';
 import Section from './components/Section';
-import './App.css';
 
 import stats from './statistical-data.json';
 
