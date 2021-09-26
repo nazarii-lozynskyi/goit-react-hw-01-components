@@ -44,6 +44,26 @@
   background-color: chocolate;
 }
 
+.item:first-child {
+  background-color: #7b68ee;
+}
+
+.item:last-child {
+  background-color: #48d1cc;
+}
+
+.item:nth-child(2) {
+  background-color: #ffa500;
+}
+
+.item:nth-child(3) {
+  background-color: #ff4500;
+}
+
+.item:nth-child(4) {
+  background-color: #663399;
+}
+
 .label {
   margin-bottom: 20px;
   font-family: fantasy;
