@@ -8,6 +8,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 162, 0, 0.8858893899356618) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }
 
 code {
