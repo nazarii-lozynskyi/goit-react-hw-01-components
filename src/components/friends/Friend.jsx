@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import styles from '../Friends.module.css';
+import styles from './Friends.module.css';
 
 export default function Friend({ friends }) {
   return (

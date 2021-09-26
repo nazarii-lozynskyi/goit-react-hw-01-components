@@ -21,6 +21,8 @@
 }
 
 .list {
+  width: fit-content;
+
   margin: 0;
   padding: 10px;
   display: flex;

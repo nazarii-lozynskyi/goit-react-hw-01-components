@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-import styles from '../Profile.module.css';
+import styles from './Profile.module.css';
 
-import defaultImg from '../images/default_img.png';
+import defaultImg from './images/default_img.png';
 
 export default function Profile({
   name = 'unknown',

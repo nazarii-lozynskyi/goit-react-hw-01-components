@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 import Friend from './Friend';
 
-import styles from '../Friends.module.css';
+import styles from './Friends.module.css';
 
 function FriendList({ friends }) {
   return (

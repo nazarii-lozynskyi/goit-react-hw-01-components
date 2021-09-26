@@ -2,25 +2,7 @@ import PropTypes from 'prop-types';
 
 import Statistics from './Statistics';
 
-import styles from '../Statistics.module.css';
-
-const backgroundColor = [
-  {
-    color: '#eeaeca',
-  },
-  {
-    color: '#c2aeee',
-  },
-  {
-    color: '#c14242',
-  },
-  {
-    color: '#4bb43f',
-  },
-  {
-    color: '#e1e908',
-  },
-];
+import styles from './Statistics.module.css';
 
 function StatisticsList({ stats }) {
   //const title = false;

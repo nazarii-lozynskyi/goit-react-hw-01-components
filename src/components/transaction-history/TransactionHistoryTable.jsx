@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 import TransactionHistory from './TransactionHistory';
 
-import styles from '../TransactionHistory.module.css';
+import styles from './TransactionHistory.module.css';
 
 function TransactionHistoryTable({ transactions }) {
   return (

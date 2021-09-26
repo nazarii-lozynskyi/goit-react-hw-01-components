@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import styles from '../Statistics.module.css';
+import styles from './Statistics.module.css';
 
 function Section({ title, children }) {
   return (
