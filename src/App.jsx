@@ -2,6 +2,7 @@ import Profile from './profile/App';
 import StatisticsList from './statistics/App';
 import Friends from './friends/App';
 import TransactionHistory from './transaction-history/App';
+import Container from 'container/Container';
 
 import user from './profile/user.json';
 import friends from './friends/friends.json';
@@ -10,7 +11,7 @@ import transactions from './transaction-history/transactions.json';
 
 export default function App() {
   return (
-    <>
+    <Container>
       <Profile
         name={user.name}
         tag={user.tag}
@@ -22,6 +23,6 @@ export default function App() {
       <Friends friends={friends} />
 
       <TransactionHistory transactions={transactions} />
-    </>
+    </Container>
   );
 }
